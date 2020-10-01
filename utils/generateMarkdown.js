@@ -8,21 +8,24 @@ function generateMarkdown(questions) {
   ## Table of Contents
   * [Installation](#Installation "Goto Installation")
   * [Usage](#Usage "Goto Usage")
+  * [Contribution](#Contribution "Goto Contribution")
   * [Credits](#Credits "Goto Credits")
+  * [Test](#Test "Goto Test")
   * [License](#License "Goto License")
-  
   ## Installation
   ${questions.installation}
   ## Usage
   ${questions.usage}
-  ## License
-  ${questions.license}
+  ## Credits
+  ${questions.credits}
   ## Contributing
   ${questions.contributing}
   ## Tests
   ${questions.tests}
+  ## License
+  ${questions.license}
   ## Questions
-  <$ href=${questions.username}>${questions.username}</$>
+  <a href="https://github.com/${questions.username}">https://github.com/${questions.username}</a>
   
 
 

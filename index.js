@@ -56,7 +56,6 @@ const questionAnswers = require("./utils/generateMarkdown.js");
 // }
 
 
-
 ;
 
 // function to write README file
@@ -76,7 +75,6 @@ function writeToFile(response) {
 }
 
 
-
 // function to initialize program
 function init() {
 
@@ -92,6 +90,46 @@ function init() {
             name: "description",
             message: "Give a description of project:"
         },
+
+        {
+            type: "input",
+            name: "installation",
+            message: "What are the steps required to install your project?"
+        },
+
+        {
+            type: "input",
+            name: "usage",
+            message: "Usage instructions?"
+        },
+
+        {
+            type: "input",
+            name: "credits",
+            message: "Name collaborators:"
+        },
+
+        {
+            type: "input",
+            name: "contributing",
+            message: "What are the guidelines for others to contribute?"
+        },
+
+        {
+            type: "input",
+            name: "tests",
+            message: "What are ways to test application?"
+        },
+
+        {
+            type: "input",
+            name: "username",
+            message: "GitHub UserName:"
+        },
+
+
+
+
 
         
 
