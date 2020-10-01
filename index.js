@@ -69,7 +69,7 @@ function writeToFile(response) {
 
         console.log("success")
         console.log(response.title)
-        
+
     });
 
 }
@@ -127,23 +127,45 @@ function init() {
             message: "GitHub UserName:"
         },
 
+        {
+            type: "list",
+            message: "Please choose a corresponding license from list below:",
+            name: "license",
+            choices: [
+                "Apache 2.0 License",
+                "BSD 3-Clause License",
+                "ISC License (ISC)",
+                "The MIT License",
+                "The Unlicense"
+            ]
+        }
 
-
-
-
-        
-
-        // {
-        //   type: "list",
-        //   message: "What is your preferred method of communication?",
-        //   name: "tableOfContents",
-        //   choices: [
-        //     "email",
-        //     "phone",
-        //     "telekinesis"
-        //   ]
-        // }
     ]).then(function (response) {
+
+        if (response.license == "The MIT License") {
+
+             badge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+        }
+        else if (response.license == "Apache 2.0 License"){
+
+            badge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+
+        }
+        else if (response.license == "BSD 3-Clause License"){
+
+            badge = "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
+
+        }
+        else if (response.license == "ISC License (ISC)"){
+
+            badge = "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)"
+
+        }
+        else if (response.license == "The Unlicense"){
+
+            badge = "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)"
+
+        };
 
         writeToFile(response);
 

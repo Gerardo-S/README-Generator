@@ -23,16 +23,16 @@ function generateMarkdown(questions) {
   ## Tests
   ${questions.tests}
   ## License
-  ${questions.license}
+  ${badge}<br>
+  License: ${questions.license}
   ## Questions
   <a href="https://github.com/${questions.username}">https://github.com/${questions.username}</a>
   
-
-
 `;
 }
 
 module.exports = generateMarkdown;
+
 
 
 // Custom table of contents will revisit
