@@ -1,10 +1,12 @@
-# example title
+# example title 
   ## Description
   example description 
   ## Table of Contents
-  * item1
-  * item2
-  * item3
+  * [Installation](#Installation "Goto Installation")
+  * [Usage](#Usage "Goto Usage")
+  * [Credits](#Credits "Goto Credits")
+  * [License](#License "Goto License")
+  
   ## Installation
   undefined
   ## Usage
@@ -16,7 +18,7 @@
   ## Tests
   undefined
   ## Questions
-  <a href=undefined>undefined</a>
+  <$ href=undefined>undefined</$>
   
 
 

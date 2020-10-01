@@ -70,7 +70,7 @@ function writeToFile(response) {
 
         console.log("success")
         console.log(response.title)
-        console.log(response.tableOfContents)
+        
     });
 
 }
@@ -93,11 +93,7 @@ function init() {
             message: "Give a description of project:"
         },
 
-        {
-            type: "input",
-            name: "tableOfContents",
-            message: "List table of contents:"
-        },
+        
 
         // {
         //   type: "list",

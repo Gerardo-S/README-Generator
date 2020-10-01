@@ -6,11 +6,11 @@ function generateMarkdown(questions) {
   ## Description
   ${questions.description}
   ## Table of Contents
-  ${splitQuestions = questions.tableOfContents.split(" ").forEach(
-
-    function(){return "*" + splitQuestions }
-    
-  )}
+  * [Installation](#Installation "Goto Installation")
+  * [Usage](#Usage "Goto Usage")
+  * [Credits](#Credits "Goto Credits")
+  * [License](#License "Goto License")
+  
   ## Installation
   ${questions.installation}
   ## Usage
@@ -22,7 +22,7 @@ function generateMarkdown(questions) {
   ## Tests
   ${questions.tests}
   ## Questions
-  <a href=${questions.username}>${questions.username}</a>
+  <$ href=${questions.username}>${questions.username}</$>
   
 
 
@@ -31,7 +31,10 @@ function generateMarkdown(questions) {
 
 module.exports = generateMarkdown;
 
-// ## Table of Contents
-  // * ${questions.tableOfContents.split(" ")[0]}
-  // * ${questions.tableOfContents.split(" ")[1]}
-  // * ${questions.tableOfContents.split(" ")[2]}
+
+// Custom table of contents will revisit
+// * ${questions.tableOfContents.split(" ")[0]}
+//   * ${questions.tableOfContents.split(" ")[1]}
+//   * ${questions.tableOfContents.split(" ")[2]}
+//   * ${questions.tableOfContents.split(" ")[3]}
+  
