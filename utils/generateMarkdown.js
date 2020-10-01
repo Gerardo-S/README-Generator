@@ -26,7 +26,9 @@ function generateMarkdown(questions) {
   ${badge}<br>
   License: ${questions.license}
   ## Questions
-  <a href="https://github.com/${questions.username}">https://github.com/${questions.username}</a>
+  For additional questions you can reach me by<br>
+  Email: ${questions.email} or <br>
+  GitHub: <a href="https://github.com/${questions.username}">https://github.com/${questions.username}</a><br>
   
 `;
 }
