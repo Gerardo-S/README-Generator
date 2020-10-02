@@ -13,9 +13,9 @@ then follow command prompts with necessary responses as shown in the animated gi
 <a href="https://drive.google.com/file/d/1E1LZUxEQX2FntZVSMOUyLTlG6f90sdHh/view">Click here for a video walk through</a><br>
 
 Link to Repo:
-<a href="https://github.com/Gerardo-S/README-Generator">https://github.com/Gerardo-S/README-Generator</a>
-Link to Sample Generated README.md file:
-<a href="https://github.com/Gerardo-S/README-Generator">https://github.com/Gerardo-S/README-Generator</a>
+<a href="https://github.com/Gerardo-S/README-Generator">https://github.com/Gerardo-S/README-Generator</a><br>
+Link to Sample Generated ````README.md```` file:<br>
+<a href="https://github.com/Gerardo-S/README-Generator/blob/master/README2.md">https://github.com/Gerardo-S/README-Generator/blob/master/README2.md</a>
 
 
 

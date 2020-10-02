@@ -23,6 +23,6 @@
   License: ISC License (ISC)
   ## Questions
   For additional questions you can reach me by<br>
-  Email: gerardoa.solis or <br>
+  Email: gerardoa.solis@yahoo.com or <br>
   GitHub: <a href="https://github.com/Gerardo-S">https://github.com/Gerardo-S</a><br>
   
