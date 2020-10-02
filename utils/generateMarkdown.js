@@ -1,5 +1,4 @@
 
-
 // function to generate markdown for README
 function generateMarkdown(questions) {
   return `# ${questions.title}
@@ -34,12 +33,3 @@ function generateMarkdown(questions) {
 }
 
 module.exports = generateMarkdown;
-
-
-
-// Custom table of contents will revisit
-// * ${questions.tableOfContents.split(" ")[0]}
-//   * ${questions.tableOfContents.split(" ")[1]}
-//   * ${questions.tableOfContents.split(" ")[2]}
-//   * ${questions.tableOfContents.split(" ")[3]}
-  

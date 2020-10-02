@@ -1,9 +1,7 @@
-// code for reference 
 const fs = require("fs");
 const inquirer = require("inquirer");
 
 const questionAnswers = require("./utils/generateMarkdown.js");
-
 
 // function to write README file
 function writeToFile(response) {
@@ -20,7 +18,6 @@ function writeToFile(response) {
     });
 
 }
-
 
 // function to initialize program
 function init() {
