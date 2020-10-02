@@ -1,28 +1,28 @@
-# ex
+# Title of README goes here
   ## Description
-  ex
+  New description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus augue, convallis lobortis nibh tincidunt, faucibus vulputate lacus. Quisque placerat porttitor mi, quis vehicula ipsum lacinia at. Cras malesuada augue eu placerat mollis. Nam sit amet nisi sed sapien fringilla faucibus. Integer a aliquet erat, vel lacinia mi.
   ## Table of Contents
   * [Installation](#Installation "Goto Installation")
   * [Usage](#Usage "Goto Usage")
-  * [Contribution](#Contribution "Goto Contribution")
+  * [Contributing](#Contributing "Goto Contributing")
   * [Credits](#Credits "Goto Credits")
-  * [Test](#Test "Goto Test")
+  * [Tests](#Tests "Goto Tests")
   * [License](#License "Goto License")
   ## Installation
-  ex
+  Step1 Step2 Step3
   ## Usage
-  ex
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus augue, convallis lobortis nibh tincidunt, faucibus vulputate lacus. Quisque placerat porttitor mi, quis vehicula ipsum lacinia at. Cras malesuada augue eu placerat mollis. Nam sit amet nisi sed sapien fringilla faucibus. Integer a aliquet erat, vel lacinia mi.
   ## Credits
-  ex
+  NAME1 NAME2
   ## Contributing
-  ex
+  guidelines Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus augue, convallis lobortis nibh tincidunt, faucibus vulputate lacus. Quisque placerat porttitor mi, quis vehicula ipsum lacinia at. Cras malesuada augue eu placerat mollis. Nam sit amet nisi sed sapien fringilla faucibus. Integer a aliquet erat, vel lacinia mi.
   ## Tests
-  ex
+  test by Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus augue, convallis lobortis nibh tincidunt, faucibus vulputate lacus. Quisque placerat porttitor mi, quis vehicula ipsum lacinia at. Cras malesuada augue eu placerat mollis. Nam sit amet nisi sed sapien fringilla faucibus. Integer a aliquet erat, vel lacinia mi.
   ## License
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br>
-  License: The MIT License
+  [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)<br>
+  License: ISC License (ISC)
   ## Questions
   For additional questions you can reach me by<br>
-  gerardoa.solis@yahoo.com or <br>
+  Email: gerardoa.solis or <br>
   GitHub: <a href="https://github.com/Gerardo-S">https://github.com/Gerardo-S</a><br>
   

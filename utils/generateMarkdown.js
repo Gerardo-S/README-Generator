@@ -8,9 +8,9 @@ function generateMarkdown(questions) {
   ## Table of Contents
   * [Installation](#Installation "Goto Installation")
   * [Usage](#Usage "Goto Usage")
-  * [Contribution](#Contribution "Goto Contribution")
+  * [Contributing](#Contributing "Goto Contributing")
   * [Credits](#Credits "Goto Credits")
-  * [Test](#Test "Goto Test")
+  * [Tests](#Tests "Goto Tests")
   * [License](#License "Goto License")
   ## Installation
   ${questions.installation}
